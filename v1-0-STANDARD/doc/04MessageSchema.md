@@ -242,7 +242,7 @@ A composite type often has its elements defined in-line within the `<composite>`
 In this example, a futuresPrice is encoded as 64 bit integer mantissa,  8 bit exponent, and a reused enum type. 
 
 ```xml
-<enum name="booleanEnum" encodingType="uint8" semanticType="Boolean">
+<enum name="boolEnum" encodingType="uint8" semanticType="Boolean">
     <validValue name="false">0</validValue>
     <validValue name="true">1</validValue>
 </enum>
